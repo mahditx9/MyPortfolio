@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --gradient1: linear-gradient(to right bottom, #2ae98c, #bdfff3);
+  --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+body {
+  padding: 0.3rem 1rem;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins sans-serif;
+  scroll-behavior: smooth;
+}
+
+.btn:hover {
+  background: var(--gradient1);
+}
+
+.abspath:hover {
+  color: #2ae98c !important;
+}
+.project-view {
+  box-shadow: var(--card-shadow);
+}
