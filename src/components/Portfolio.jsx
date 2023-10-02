@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react/prop-types */
 import styles, { layout, abspathStyle } from "../styles";
 import { faMegaport } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -19,7 +21,6 @@ const ProjectBox = ({ id, name, src, description, frameWorks }) => {
 };
 
 function Portfolio() {
-  console.log(projects);
   return (
     <section id="portfolio">
       <div className={`${layout.section} mt-20`}>

@@ -12,13 +12,13 @@ function Menu() {
   const [isHover, setIsHover] = useState(0);
   return (
     <nav
-      className={`${styles.flexCenter} flex-col  gap-y-3 py-4 px-2 bg-transparent border-[1px] border-textSecondary rounded-[16px] fixed right-14 h-[50%] top-[9rem]`}
+      className={`hidden sm:flex  ${styles.flexCenter} flex-col  gap-y-3 py-4 px-2 bg-transparent border-[1px] border-textSecondary rounded-[16px] fixed sm:right-3 md:right-[6.2rem] h-[50%] top-[9rem]`}
     >
       <ul className="flex flex-col justify-between items-center h-[100%]">
         <li className="relative">
           <a
             id={1}
-            href="#"
+            href="#home"
             onMouseEnter={() => setIsHover(1)}
             onMouseLeave={() => setIsHover(0)}
             className="text-textSecondary text-[20px] hover:text-primary"
@@ -36,7 +36,7 @@ function Menu() {
         <li className="relative">
           <a
             id={2}
-            href="#"
+            href="#about"
             onMouseEnter={() => setIsHover(2)}
             onMouseLeave={() => setIsHover(0)}
             className="text-textSecondary text-[20px] hover:text-primary"
@@ -54,7 +54,7 @@ function Menu() {
         <li className="relative">
           <a
             id={3}
-            href="#"
+            href="#my-skills"
             onMouseEnter={() => setIsHover(3)}
             onMouseLeave={() => setIsHover(0)}
             className="text-textSecondary text-[20px] hover:text-primary"
@@ -72,7 +72,7 @@ function Menu() {
         <li className="relative">
           <a
             id={4}
-            href="#"
+            href="#portfolio"
             onMouseEnter={() => setIsHover(4)}
             onMouseLeave={() => setIsHover(0)}
             className="text-textSecondary text-[20px] hover:text-primary"
@@ -90,7 +90,7 @@ function Menu() {
         <li className="relative">
           <a
             id={5}
-            href="#"
+            href="#contact"
             onMouseEnter={() => setIsHover(5)}
             onMouseLeave={() => setIsHover(0)}
             className="text-textSecondary text-[20px] hover:text-primary"

@@ -3,9 +3,11 @@ import { faConnectdevelop } from "@fortawesome/free-brands-svg-icons";
 import CurrentPage from "./CurrentPage";
 import ResumeCard from "./ResumeCard";
 import styles, { layout, abspathStyle } from "../styles";
+const skills = [{ id: 1, title: "HTML5", level: 90 }];
+
 function Resume() {
   return (
-    <section id="resume">
+    <section id="my-skills">
       <div className={`${layout.section} mt-20`}>
         <CurrentPage style={abspathStyle}>
           <FontAwesomeIcon icon={faConnectdevelop} className="mr-2" />

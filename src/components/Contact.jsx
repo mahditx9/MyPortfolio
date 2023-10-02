@@ -6,7 +6,7 @@ import Input from "./Input";
 import Button from "./Button";
 function Contact() {
   return (
-    <section id="portfolio">
+    <section id="contact">
       <div className={`${layout.section} mt-20`}>
         <CurrentPage style={abspathStyle}>
           <FontAwesomeIcon icon={faContactCard} className="mr-2" />
